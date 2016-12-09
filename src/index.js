@@ -5,7 +5,7 @@ import secrets from './secrets';
 
 const T = new Twit(secrets);
 
-const stream = T.stream('statuses/filter', { track: 'pizzagate' });
+const stream = T.stream('statuses/filter', { track: '@realDonaldTrump' });
 
 stream.start();
 stream.on('tweet', (tweet) => {
