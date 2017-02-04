@@ -27,6 +27,6 @@ agenda.on('ready', () => {
 
   agenda.purge((err, numRemoved) => {
   });
-  agenda.every('10 second', 'tweetOnce');
+  agenda.every('20 second', 'tweetOnce');
   agenda.start();
 });
