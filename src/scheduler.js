@@ -25,8 +25,8 @@ agenda.define('tweetOnce', (job, done) => {
 agenda.on('ready', () => {
 
 
-  agenda.purge((err, numRemoved) => {
-  });
-  agenda.every('20 second', 'tweetOnce');
+  // agenda.purge((err, numRemoved) => {
+  // });
+  agenda.every('30 second', 'tweetOnce');
   agenda.start();
 });
