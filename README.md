@@ -1,4 +1,5 @@
-# README
+# Firetoolz Twitter Bot
+![](https://user-images.githubusercontent.com/9736319/29038217-e4ff0470-7b74-11e7-90c5-37f97a3e3b30.jpg)
 ## about
 This is a twitter bot based on following libraries:
  - twit
